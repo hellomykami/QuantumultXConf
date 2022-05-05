@@ -1,9 +1,9 @@
 /*
 Loon/Surge:
-http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) script-path=https://raw.githubusercontent.com/hellomykami/QuantumultXConf/master/jf_Convert.js, requires-body=true, timeout=10, tag=京粉转链
+http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) script-path=https://raw.githubusercontent.com/hellomykami/QuantumultXConf/master/rewrite/jf_Convert.js, requires-body=true, timeout=10, tag=京粉转链
 
 qx:
-^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/hellomykami/QuantumultXConf/master/jf_Convert.js
+^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/hellomykami/QuantumultXConf/master/rewrite/jf_Convert.js
  */
 
 const path1 = "serverConfig";
